@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="score-container">
+        <h1> <span id="player-score">0</span>
+            <span>-</span>
+            <span id="comp-score">0</span>
+        </h1>
+    </div>
+    <div class="main-container">
+        <div class="column1">
+            <p>You</p>
+            <img src="assets/rock-hand.png" alt="" class="hand" id="rockimg">
+            <img src="assets/paper-hand.png" alt="" class="hand" id="paperimg">
+            <img src="assets/scissors-hand.png" alt="" class="hand" id="scissorsimg">
+            <div class="flex">
+             <img src="assets/rock-logo.png" alt="" class="buttons" id="rock">
+            <img src="assets/paper-logo.png" alt="" class="buttons" id="paper"> 
+            <img src="assets/scissors-logo.png" alt="" class="buttons" id="scissors">
+        </div>
+        </div>
+        <div class="column2">
+            <h1> <span> </span>
+                <span></span>
+                <span></span>
+            </h1>
+            <img src="assets/vs.png" alt="">
+        </div>
+        <div class="column3">
+            <p>Comp</p>
+            <img src="assets/rock-hand.png" alt="" class="comphand" id="rockcomp">
+            <img src="assets/paper-hand.png" alt="" class="comphand" id="papercomp">
+            <img src="assets/scissors-hand.png" alt="" class="comphand" id="scissorscomp">
+        </div>
+    </div>
+    <section class="resultsection">
+        <h1 class="message"><span id="gamestatus" ></span> </h1>
+        <button id="play-again">Play Again</button>
+    </section>
+</body>
+<script src="game.js"></script>
+
+</html>

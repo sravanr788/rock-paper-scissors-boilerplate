@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: url(./assets/bg.png);
+background-color: #0E0E0E;
+font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    color: rgb(100, 21, 219);
+    font-size: 4rem;
+    text-align: center;
+    padding: 40px 300px 20px 450px ;
+}
+.game{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    height: 540px;
+}
+.play {
+    position: absolute;
+    bottom: 4%;
+    right: 20%;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.play-button{
+    width: 40px;
+    padding: 10px;
+}
+.playtext{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
