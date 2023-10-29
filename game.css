@@ -19,7 +19,7 @@ font-family: 'Poppins', sans-serif;
     padding:0 100px;
 }
 .column1,.column3{
-    border: 2px solid #F5BB3B;
+    border: 2px solid #ffc434;
     height: 500px;
     width: 500px;
     font-size: 2rem;
@@ -65,7 +65,7 @@ font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 2rem;
     font-weight: 600;
-    background-color: #F4AA3A;
+    background-color: #ffc434;
     border: none;
     border-radius: 5px;
     margin-top: 20px;

@@ -118,7 +118,7 @@ else if(compScore==5){
 }
 // After playing redirecting him to the game page to play again 
 playAgain.onclick = () => {
-  window.location.href = "./game.html"
+  window.location.reload()
 }
 
 //AFTER scoring 5 points on either side hiding the buttons 
